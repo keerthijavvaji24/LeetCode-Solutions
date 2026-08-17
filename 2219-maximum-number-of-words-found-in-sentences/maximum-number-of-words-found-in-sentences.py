@@ -3,8 +3,8 @@ class Solution:
         maximum = 0
 
         for sentence in sentences:
+            print(sentence)
             count = 1
-
             for ch in sentence:
                 if ch == " ":
                     count += 1
